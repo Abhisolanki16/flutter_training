@@ -10,3 +10,7 @@ findProduct(List<String> args){
   }
   print("Product of all elements in the list is : ${product} ");
 }
+
+void main(List<String> args) {
+  findProduct(args);
+}
