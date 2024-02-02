@@ -6,3 +6,7 @@ checkPalindrome(String str){
   }
   (reversedString == str) ? print("String is palindrom") : print("String is not palindrom");
 }
+
+void main(List<String> args){
+  checkPalindrome(args[0]);
+}
