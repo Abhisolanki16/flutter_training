@@ -20,3 +20,7 @@ findMaxMin(List<String> args) {
 
   print('Maximum number is : ${max} \nMinimum number is : ${min}');
 }
+
+void main(List<String> args) {
+  findMaxMin(args);
+}
