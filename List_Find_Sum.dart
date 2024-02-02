@@ -10,3 +10,7 @@ sumOfElements(List<String> args){
   }
   print("Sum of all elements in the list is : ${sum} ");
 }
+
+void main(List<String> args) {
+  sumOfElements(args);
+}
